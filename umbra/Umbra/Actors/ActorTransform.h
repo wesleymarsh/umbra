@@ -4,6 +4,8 @@
 
 class ActorTransform
 {
+	friend class ActorWorld;
+
 public:
 	Vector2 location;
 	Vector2 scale;
